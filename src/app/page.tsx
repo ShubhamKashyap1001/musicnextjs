@@ -1,5 +1,6 @@
 import FeatureCourses from "@/components/FeatureCourses";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       {/* <h1 className="text-center text-3xl text-green-400 mt-3">Chai aur Nextjs</h1> */}
       <HeroSection />
       <FeatureCourses />
+      <WhyChooseUs />
     </main>
   );
 }
