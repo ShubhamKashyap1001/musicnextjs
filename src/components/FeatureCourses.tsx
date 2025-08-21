@@ -1,6 +1,5 @@
 'use client'
 
-import { div } from "motion/react-client";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Link from "next/link";

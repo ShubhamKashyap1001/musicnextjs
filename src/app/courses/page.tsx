@@ -2,7 +2,6 @@
  
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Image from "next/image";
 import courseData from '@/data/music_courses.json'
 
 interface Course{
