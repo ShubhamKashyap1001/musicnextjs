@@ -30,10 +30,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <div className="relative w-full flex items-center justify-center "> */}
+        <div className="relative w-full flex items-center justify-center ">
         <Navbar />
         {children}
-        {/* </div> */}
+        </div>
       </body>
     </html>
   );
