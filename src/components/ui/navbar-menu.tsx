@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 import type { Transition } from "framer-motion";
 
@@ -89,7 +90,7 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <a href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2">
       <img
         src={src}
         width={140}
@@ -105,7 +106,7 @@ export const ProductItem = ({
           {description}
         </p>
       </div>
-    </a>
+    </Link>
   );
 };
 
